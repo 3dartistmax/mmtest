@@ -1,0 +1,10 @@
+{% comment %} _includes/head/custom.html   This file is automatically loaded by Minimal Mistakes theme's _includes/head.html. Place this at: _includes/head/custom.html   Add any custom <head> content here — hreflang tags, custom fonts for Nepali script, etc. {% endcomment %}
+{% comment %} Multilingual hreflang SEO tags {% endcomment %}
+{% include i18n-head.html %}
+{% comment %}   Google Noto Sans for Nepali (Devanagari script) support. Only load when the page lang is Nepali to avoid unnecessary font loading. {% endcomment %}
+{% assign _current_lang = page.lang | default: site.default_lang %}
+{% if _current_lang == "ne" %}  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;700&display=swap" rel="stylesheet">
+<style>   /* Apply Devanagari font for Nepali pages */   body,   .page__content,   .page__title,   .nav__list,   .masthead__menu-item,   .toc__menu {     font-family: "Noto Sans Devanagari", "Noto Sans", sans-serif !important;   } </style>
+{% endif %}
