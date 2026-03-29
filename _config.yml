@@ -1,14 +1,15 @@
----
-layout: single
-title: "हाम्रो बारे"
-lang: ne
-permalink: /ne/about/
-lang_alts:
-  en: /about/
-  de: /de/about/
-author_profile: true
----
+# Jekyll Configuration
 
-यो **हाम्रो बारे** पृष्ठ नेपालीमा हो।
+# Site settings
+url: "https://example.com"
+baseurl: ""
+title: "My Site"
+description: "A brief description of my site"
 
-तपाईं आफ्नो सामग्री यहाँ नेपालीमा लेख्न सक्नुहुन्छ। यो पृष्ठले Minimal Mistakes सँग बहुभाषिक प्रणाली कसरी काम गर्छ भनेर देखाउँछ।
+# Build settings
+markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
