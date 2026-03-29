@@ -1,12 +1,5 @@
----
-layout: home
-title: "स्वागत छ"
-lang: ne
-permalink: /ne/
-lang_alts:
-  en: /
-  de: /de/
-author_profile: true
----
+source "https://rubygems.org"
 
-मेरो बहुभाषिक Jekyll साइटमा स्वागत छ! यो नेपाली संस्करण हो।
+gem "jekyll"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-theme-primer"
