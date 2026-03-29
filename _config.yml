@@ -1,0 +1,14 @@
+---
+layout: single
+title: "हाम्रो बारे"
+lang: ne
+permalink: /ne/about/
+lang_alts:
+  en: /about/
+  de: /de/about/
+author_profile: true
+---
+
+यो **हाम्रो बारे** पृष्ठ नेपालीमा हो।
+
+तपाईं आफ्नो सामग्री यहाँ नेपालीमा लेख्न सक्नुहुन्छ। यो पृष्ठले Minimal Mistakes सँग बहुभाषिक प्रणाली कसरी काम गर्छ भनेर देखाउँछ।

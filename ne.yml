@@ -1,0 +1,13 @@
+# _data/navigation.yml
+# Main navigation links — titles are translated dynamically in masthead.html
+# using the translation keys in _data/translations/[lang].yml
+
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/

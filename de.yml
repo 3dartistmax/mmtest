@@ -1,0 +1,90 @@
+# Nepali translations
+lang: ne
+lang_name: नेपाली
+lang_flag: 🇳🇵
+
+# Navigation
+nav:
+  home: गृहपृष्ठ
+  about: हाम्रो बारे
+  blog: ब्लग
+  contact: सम्पर्क
+  search: खोज्नुहोस्
+
+# Site UI
+ui:
+  skip_links:
+    skip_to_content: सामग्रीमा जानुहोस्
+    skip_to_footer: फुटरमा जानुहोस्
+  breadcrumb_home_label: गृहपृष्ठ
+  breadcrumb_separator: "/"
+  menu_label: मेनु टगल गर्नुहोस्
+  close_label: बन्द गर्नुहोस्
+  back_to_top: माथि जानुहोस्
+
+# Pagination
+pagination:
+  previous: अघिल्लो
+  next: अर्को
+  newer: नयाँ पोस्टहरू
+  older: पुराना पोस्टहरू
+
+# Posts & Pages
+posts:
+  read_time: "%{time} मिनेट पढाइ"
+  modified: "अन्तिम परिमार्जन:"
+  share_on: साझा गर्नुहोस्
+  by: द्वारा
+  categories: श्रेणीहरू
+  tags: ट्यागहरू
+  related: सम्बन्धित पोस्टहरू
+  comments: टिप्पणीहरू
+  leave_comment: टिप्पणी छोड्नुहोस्
+  toc: यस पृष्ठमा
+
+# Search
+search:
+  placeholder: खोज्नुहोस्...
+  results_found: "%{count} परिणामहरू फेला परे"
+  no_results: कुनै परिणाम फेला परेन
+
+# 404
+error_404:
+  title: पृष्ठ फेला परेन
+  message: तपाईंले खोजेको पृष्ठ अवस्थित छैन।
+  go_home: गृहपृष्ठमा जानुहोस्
+
+# Dates
+date:
+  months:
+    - जनवरी
+    - फेब्रुअरी
+    - मार्च
+    - अप्रिल
+    - मे
+    - जून
+    - जुलाई
+    - अगस्ट
+    - सेप्टेम्बर
+    - अक्टोबर
+    - नोभेम्बर
+    - डिसेम्बर
+  short_months:
+    - जन
+    - फेब
+    - मार
+    - अप्र
+    - मे
+    - जून
+    - जुल
+    - अग
+    - सेप
+    - अक्ट
+    - नोभ
+    - डिस
+
+# Footer
+footer:
+  powered_by: द्वारा संचालित
+  follow_on: फलो गर्नुहोस्
+  feed_label: RSS फिड
